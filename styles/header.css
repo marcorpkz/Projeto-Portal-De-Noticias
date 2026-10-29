@@ -22,4 +22,12 @@
     padding-block: 14px;
     border: solid 1px var(--stroke-color);
     border-inline: none;
+    justify-content: space-between;
+    
+    a:nth-child(1) {
+        padding-left: 40px;
+    }
+    a:nth-child(7) {
+        padding-right: 40px;
+    }
 }
